@@ -15,7 +15,7 @@ alias sudo='sudo '
 setxkbmap -option "ctrl:nocaps"
 
 export CLICOLOR=1
-export PS1='\u@\h \[\e[33m\]\w\[\e[0m\] ~ '
+export PS1='\u@\h \[\e[0m\]\w\[\e[0m\] ~ '
 export EDITOR='vim'
 
 complete -cf sudo
